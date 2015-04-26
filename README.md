@@ -1,1 +1,1 @@
-# yubinbango.github.io
+# YubinBango
