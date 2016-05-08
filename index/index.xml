@@ -15,11 +15,7 @@
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://family1st.jp/index/</guid>
-      <description>
-
-&lt;h1 id=&#34;yubinbango&#34;&gt;Yubinbango&lt;/h1&gt;
-
-&lt;p&gt;Webフォームにて郵便番号を入力すると自動的に住所が自動入力されるライブラリ（ajaxzip3の開発者による正式な後継）です。&lt;/p&gt;
+      <description>&lt;p&gt;YubinBangoは、Webフォームにて郵便番号を入力すると自動的に住所が自動入力されるライブラリ（ajaxzip3の開発者による正式な後継）です。&lt;/p&gt;
 
 &lt;p&gt;郵便事業株式会社（旧郵政省）提供のデータを利用しています。&lt;br /&gt;
 郵便番号データの更新はCIで自動化しております。&lt;/p&gt;
@@ -27,6 +23,17 @@
 &lt;p&gt;詳しくはGithub内の&lt;a href=&#34;https://github.com/yubinbango/yubinbango&#34;&gt;YubinBango&lt;/a&gt;のレポジトリに記載のガイドをご覧ください。&lt;/p&gt;
 
 &lt;p&gt;＃お気に召しましたらNPO法人Family1st宛に任意で&lt;a href=&#34;https://family1st.jp/contribute/&#34;&gt;ご寄付&lt;/a&gt;をお願いいたします。&lt;/p&gt;
+
+&lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:inline-block;width:336px;height:280px&#34;
+     data-ad-client=&#34;ca-pub-0230819688759365&#34;
+     data-ad-slot=&#34;5669494558&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+
 
 &lt;div class=&#34;mdl-tabs mdl-js-tabs mdl-js-ripple-effect&#34;&gt;
   &lt;div class=&#34;mdl-tabs__tab-bar&#34;&gt;
