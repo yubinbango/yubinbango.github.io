@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indexes on YubinBango</title>
+    <link>https://family1st.jp/index/</link>
+    <description>Recent content in Indexes on YubinBango</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 13 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://family1st.jp/index/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>YubinBango</title>
+      <link>https://family1st.jp/index/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://family1st.jp/index/</guid>
+      <description>
+
+&lt;h1 id=&#34;yubinbango&#34;&gt;Yubinbango&lt;/h1&gt;
+
+&lt;p&gt;Webフォームにて郵便番号を入力すると自動的に住所が自動入力されるライブラリです。&lt;/p&gt;
+
+&lt;p&gt;郵便事業株式会社（旧郵政省）提供のデータを利用しています。&lt;br /&gt;
+郵便番号データの更新はCIで自動化しております。&lt;/p&gt;
+
+&lt;p&gt;詳しくはGithub内の&lt;a href=&#34;https://github.com/yubinbango/yubinbango&#34;&gt;YubinBango&lt;/a&gt;のレポジトリに記載のガイドをご覧ください。&lt;/p&gt;
+
+&lt;div class=&#34;mdl-tabs mdl-js-tabs mdl-js-ripple-effect&#34;&gt;
+  &lt;div class=&#34;mdl-tabs__tab-bar&#34;&gt;
+      &lt;a href=&#34;#a&#34; class=&#34;mdl-tabs__tab is-active&#34;&gt;設置例1&lt;/a&gt;
+      &lt;a href=&#34;#b&#34; class=&#34;mdl-tabs__tab&#34;&gt;設置例2&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;mdl-tabs__panel is-active&#34; id=&#34;a&#34;&gt;
+  &lt;script src=&#34;https://yubinbango.github.io/yubinbango/yubinbango.js&#34; charset=&#34;UTF-8&#34;&gt;&lt;/script&gt;
+  &lt;form class=&#34;h-adr&#34;&gt;
+  &lt;span class=&#34;p-country-name&#34; style=&#34;display:none;&#34;&gt;Japan&lt;/span&gt;
+  〒&lt;input type=&#34;text&#34; class=&#34;p-postal-code&#34; size=&#34;8&#34; maxlength=&#34;8&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&#34;text&#34; class=&#34;p-region p-locality p-street-address p-extended-address&#34; /&gt;
+  &lt;/form&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;mdl-tabs__panel&#34; id=&#34;b&#34;&gt;
+  &lt;form class=&#34;h-adr&#34;&gt;
+  &lt;span class=&#34;p-country-name&#34; style=&#34;display:none;&#34;&gt;Japan&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;〒&lt;input type=&#34;text&#34; class=&#34;p-postal-code&#34; size=&#34;3&#34; maxlength=&#34;3&#34;&gt;
+  &lt;input type=&#34;text&#34; class=&#34;p-postal-code&#34; size=&#34;4&#34; maxlength=&#34;4&#34;&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&#34;text&#34; class=&#34;p-region&#34; readonly /&gt;&lt;br&gt;
+  &lt;input type=&#34;text&#34; class=&#34;p-locality&#34; readonly /&gt;&lt;br&gt;
+  &lt;input type=&#34;text&#34; class=&#34;p-street-address&#34; /&gt;&lt;br&gt;
+  &lt;input type=&#34;text&#34; class=&#34;p-extended-address&#34; /&gt;
+  &lt;/form&gt;
+  &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
