@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 13 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://family1st.jp/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://family1st.jp/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>YubinBango</title>
@@ -15,79 +17,15 @@
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://family1st.jp/index/</guid>
-      <description>&lt;p&gt;YubinBangoは、Webフォームにて郵便番号を入力すると自動的に住所が自動入力されるライブラリ（ajaxzip3の開発者による正式な後継）です。&lt;/p&gt;
-
-&lt;p&gt;郵便事業株式会社（旧郵政省）提供のデータを利用しています。&lt;br /&gt;
-郵便番号データの更新はCIで自動化しております。&lt;/p&gt;
-
-&lt;p&gt;詳しくはGithub内の&lt;a href=&#34;https://github.com/yubinbango/yubinbango&#34;&gt;YubinBango&lt;/a&gt;のレポジトリに記載のガイドをご覧ください。&lt;/p&gt;
-
-&lt;p&gt;＃お気に召しましたら任意で結構ですのでNPO法人Family1st宛に&lt;a href=&#34;https://family1st.jp/contribute/&#34;&gt;ご寄付&lt;/a&gt;をお願いいたします。（&lt;a href=&#34;https://family1st.jp/contribute/&#34;&gt;お振込先はこちらです&lt;/a&gt;）&lt;/p&gt;
-
-&lt;div style=&#34;margin:1rem auto;width:336px&#34;&gt;&lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
-
-&lt;ins class=&#34;adsbygoogle&#34;
-     style=&#34;display:inline-block;width:336px;height:280px&#34;
-     data-ad-client=&#34;ca-pub-0230819688759365&#34;
-     data-ad-slot=&#34;5669494558&#34;&gt;&lt;/ins&gt;
-&lt;script&gt;
-(adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;mdl-tabs mdl-js-tabs mdl-js-ripple-effect&#34;&gt;
-  &lt;div class=&#34;mdl-tabs__tab-bar&#34;&gt;
-      &lt;a href=&#34;#a&#34; class=&#34;mdl-tabs__tab is-active&#34;&gt;設置例1&lt;/a&gt;
-      &lt;a href=&#34;#b&#34; class=&#34;mdl-tabs__tab&#34;&gt;設置例2&lt;/a&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;div class=&#34;mdl-tabs__panel is-active&#34; id=&#34;a&#34;&gt;
-  &lt;script src=&#34;https://yubinbango.github.io/yubinbango/yubinbango.js&#34; charset=&#34;UTF-8&#34;&gt;&lt;/script&gt;
-  &lt;form class=&#34;h-adr&#34;&gt;
-  &lt;span class=&#34;p-country-name&#34; style=&#34;display:none;&#34;&gt;Japan&lt;/span&gt;
-  〒&lt;input type=&#34;text&#34; class=&#34;p-postal-code&#34; size=&#34;8&#34; maxlength=&#34;8&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;input type=&#34;text&#34; class=&#34;p-region p-locality p-street-address p-extended-address&#34; /&gt;
-  &lt;/form&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  &amp;lt;script src=&amp;quot;https://yubinbango.github.io/yubinbango/yubinbango.js&amp;quot; charset=&amp;quot;UTF-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-  &amp;lt;form class=&amp;quot;h-adr&amp;quot;&amp;gt;
-  &amp;lt;span class=&amp;quot;p-country-name&amp;quot; style=&amp;quot;display:none;&amp;quot;&amp;gt;Japan&amp;lt;/span&amp;gt;
-  〒&amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-postal-code&amp;quot; size=&amp;quot;8&amp;quot; maxlength=&amp;quot;8&amp;quot;&amp;gt;
-  &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-region p-locality p-street-address p-extended-address&amp;quot; /&amp;gt;
-  &amp;lt;/form&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;
-  &lt;div class=&#34;mdl-tabs__panel&#34; id=&#34;b&#34;&gt;
-  &lt;form class=&#34;h-adr&#34;&gt;
-  &lt;span class=&#34;p-country-name&#34; style=&#34;display:none;&#34;&gt;Japan&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;〒&lt;input type=&#34;text&#34; class=&#34;p-postal-code&#34; size=&#34;3&#34; maxlength=&#34;3&#34;&gt;
-  &lt;input type=&#34;text&#34; class=&#34;p-postal-code&#34; size=&#34;4&#34; maxlength=&#34;4&#34;&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;input type=&#34;text&#34; class=&#34;p-region&#34; readonly /&gt;&lt;br&gt;
-  &lt;input type=&#34;text&#34; class=&#34;p-locality&#34; readonly /&gt;&lt;br&gt;
-  &lt;input type=&#34;text&#34; class=&#34;p-street-address&#34; /&gt;&lt;br&gt;
-  &lt;input type=&#34;text&#34; class=&#34;p-extended-address&#34; /&gt;
-  &lt;/form&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  &amp;lt;script src=&amp;quot;https://yubinbango.github.io/yubinbango/yubinbango.js&amp;quot; charset=&amp;quot;UTF-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-  &amp;lt;form class=&amp;quot;h-adr&amp;quot;&amp;gt;
-  &amp;lt;span class=&amp;quot;p-country-name&amp;quot; style=&amp;quot;display:none;&amp;quot;&amp;gt;Japan&amp;lt;/span&amp;gt;
-  〒&amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-postal-code&amp;quot; size=&amp;quot;3&amp;quot; maxlength=&amp;quot;3&amp;quot;&amp;gt;
-  &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-postal-code&amp;quot; size=&amp;quot;4&amp;quot; maxlength=&amp;quot;4&amp;quot;&amp;gt;&amp;lt;br&amp;gt;
-  &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-region&amp;quot; readonly /&amp;gt;&amp;lt;br&amp;gt;
-  &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-locality&amp;quot; readonly /&amp;gt;&amp;lt;br&amp;gt;
-  &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-street-address&amp;quot; /&amp;gt;&amp;lt;br&amp;gt;
-  &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-extended-address&amp;quot; /&amp;gt;
-  &amp;lt;/form&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>YubinBangoは、Webフォームにて郵便番号を入力すると自動的に住所が自動入力されるライブラリ（ajaxzip3の開発者による正式な後継）です。
+郵便事業株式会社（旧郵政省）提供のデータを利用しています。
+郵便番号データの更新はCIで自動化しております。
+詳しくはGithub内のYubinBangoのレポジトリに記載のガイドをご覧ください。
+＃お気に召しましたら任意で結構ですのでNPO法人Family1st宛にご寄付をお願いいたします。（お振込先はこちらです）
+   (adsbygoogle = window.adsbygoogle || []).push({});   設置例1 設置例2   Japan 〒
+ &amp;lt;script src=&amp;quot;https://yubinbango.github.io/yubinbango/yubinbango.js&amp;quot; charset=&amp;quot;UTF-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;form class=&amp;quot;h-adr&amp;quot;&amp;gt; &amp;lt;span class=&amp;quot;p-country-name&amp;quot; style=&amp;quot;display:none;&amp;quot;&amp;gt;Japan&amp;lt;/span&amp;gt; 〒&amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-postal-code&amp;quot; size=&amp;quot;8&amp;quot; maxlength=&amp;quot;8&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-region p-locality p-street-address p-extended-address&amp;quot; /&amp;gt; &amp;lt;/form&amp;gt;   Japan
+〒
+ &amp;lt;script src=&amp;quot;https://yubinbango.github.io/yubinbango/yubinbango.js&amp;quot; charset=&amp;quot;UTF-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;form class=&amp;quot;h-adr&amp;quot;&amp;gt; &amp;lt;span class=&amp;quot;p-country-name&amp;quot; style=&amp;quot;display:none;&amp;quot;&amp;gt;Japan&amp;lt;/span&amp;gt; 〒&amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-postal-code&amp;quot; size=&amp;quot;3&amp;quot; maxlength=&amp;quot;3&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-postal-code&amp;quot; size=&amp;quot;4&amp;quot; maxlength=&amp;quot;4&amp;quot;&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-region&amp;quot; readonly /&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-locality&amp;quot; readonly /&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-street-address&amp;quot; /&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;p-extended-address&amp;quot; /&amp;gt; &amp;lt;/form&amp;gt;</description>
     </item>
     
   </channel>
